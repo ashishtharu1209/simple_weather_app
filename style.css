@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: magenta;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+
+}
+
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  }
+
+.container-fluid{
+    background: rgba(66, 19, 148, 0.3);
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+
+}
+
+
+.inputs {
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: white;
+    border-radius: 10px;
+
+}
+
+.inputs input[type="text"] {
+    height: 3.5rem;
+    width: 15rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #c2c2c2;
+    border-radius: 12px;
+    margin-right:4px ;
+
+}
+.inputs input[type="submit"] {
+    height: 3.2rem;
+    width: 6.5rem;
+    background: #0a67ca;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 12px;
+}
+
+
+.display {
+    text-align: center;
+    width: 400px;
+    color: #16a864;
+}
+.wrapper {
+    margin: 0 9rem;
+     background-color: white;
+    height: 45vh;
+    width: 42vh;
+    margin: 50px auto;
+    border-radius: 12px;
+}
+
+.wrapper h2{
+    padding: 5px 0;
+    text-align: center;
+    background: #0548b5;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+  }
+  .wrapper p{
+    margin:20px 50px;
+    margin-right: 20px;
+text-align: left;
+color: #04214c;
+    font-size:23px;
+  }
+
+  .wrapper h2 span{
+    font-size: 26px;
+    color: #9beefb;
+  }
+    .wrapper p span{
+    color: #90006e;
+    font-size: 25px;
+  }
+  
